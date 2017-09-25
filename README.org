@@ -1,0 +1,42 @@
+* Startpage 
+
+Forked from [[https://github.com/aflavio/startpage][here]].
+
+
+** Demo
+
+[[https://wolfecub.github.io/startpage/][Demo]]
+
+** Usage
+
+To go to a site, enter the corresponding key. To view the available sites and their keys, press `enter`. If your input doesn't match any of the commands, a generic Google search will be triggered. For example:
+
+- Entering `r` would redirect you to [[https://www.reddit.com][www.reddit.com]].
+- Entering `cats` would search [[https://www.google.com/search?q=cats][Google for cats]].
+
+*** Searching
+
+You can search any of the sites by typing a colon after the site's key, followed by your search query. For example:
+
+- Entering `w: unix` would search [[https://en.wikipedia.org/wiki/Unix][Wikipedia for unix]].
+- Entering `s: smash mouth` would search [[https://soundcloud.com/search?q=smash%20mouth][SoundCloud for smash mouth]].
+
+*** Specific Locations
+
+You can go to a specific location on a site by typing a forward slash after the site's key, followed by the location on the site you'd like to be redirected to. For example:
+
+- Entering `r/r/unixporn` would redirect you to [[https://www.reddit.com/r/unixporn][www.reddit.com/r/unixporn]]
+
+*** URL Redirects
+
+If you enter in a full domain or URL, you will be redirected to said domain or URL. For example:
+
+- Entering `https://www.amazon.com` would redirect you to [[https://www.amazon.com/][www.amazon.com]].
+
+** Configuration
+
+There's a shlew of options that you can configure. Just open up the `index.html` file and read through them!
+
+** Beyond
+
+Feel free to use this and modify it however you like.
